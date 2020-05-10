@@ -1,10 +1,14 @@
-from selenium import webdriver
 from pyvirtualdisplay import Display
+from selenium import webdriver
+from sys import platform
 
 
 def search_amz_newgrad_recent_10(locations):
-    display = Display(visible=0, size=(800, 800))
-    display.start()
+    # Only do virtual disply on linux system (supported by xvfb)
+    if platform == "linux" or platform == "linux2":
+        display = Display(visible=0, size=(800, 800))
+        display.start()
+
     driver = webdriver.Chrome()
     url = "https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent"
     content = ''
