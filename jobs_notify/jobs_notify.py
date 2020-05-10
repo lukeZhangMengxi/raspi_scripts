@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 def search_amz_newgrad_recent_10(locations):
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     url = "https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent"
     content = ''
     try:
