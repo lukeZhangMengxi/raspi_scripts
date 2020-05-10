@@ -6,9 +6,6 @@ Selenium requires web drivers to interact with browsers; and it looks like these
 - chromedriver: chromedriver-v2.21-linux-armv7l
 - selenium==3.141.0
 
-    Note: the above three versionings need to be a combination.
-- urllib3==1.25.9
-
 ## CPU and OS
 Result of `lscpu`:
 ```
