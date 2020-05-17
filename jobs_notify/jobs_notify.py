@@ -1,3 +1,4 @@
+import logging
 import smtplib
 import time
 import os
@@ -57,19 +58,31 @@ if __name__ == "__main__":
         {'key_words': ['Santiago'], 'found': False}
     ]
 
+    logging.basicConfig(format='%(asctime)s - %(message)s', filename='jobs_notify.log', level=logging.INFO)
     try:
         while True:
             for t in targets:
-                if not t['found'] and search_amz_newgrad_recent_10(t['key_words']):
-                    send_email(
-                        to_address='zmx94824@gmail.com',
-                        subject='NEW JOB POSTING - {}'.format(t['key_words'][0]),
-                        content='check it out at https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'
-                    )
-                    t['found'] = True
-                    print('NEW JOB POSTING - {}'.format(t['key_words'][0]))
+                search_signature = t['key_words'][0]
+                if not t['found']:
+                    logging.info('Searching {}'.format(search_signature))
+
+                    if search_amz_newgrad_recent_10(t['key_words']):
+                        logging.info('FOUND NEW JOB POSTING - {}'.format(search_signature))
+
+                        send_email(
+                            to_address='zmx94824@gmail.com',
+                            subject='NEW JOB POSTING - {}'.format(search_signature),
+                            content='check it out at https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'
+                        )
+                        t['found'] = True
+                    else:
+                        logging.info('Target not found - {}'.format(search_signature))
+                else:
+                    logging.info('Target already found - {}'.format(search_signature))
+
             time.sleep(30*60)
     except:
+        logging.exception('Job notifier exited unexpectedly')
         send_email(
             to_address='zmx94824@gmail.com',
             subject='Check your worker (Raspberry Pi)',
