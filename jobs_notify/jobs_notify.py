@@ -1,4 +1,5 @@
 import smtplib
+import time
 import os
 
 from email.message import EmailMessage
@@ -48,10 +49,29 @@ def send_email(to_address, subject, content):
         server.quit()
     
 
-# send_email('zmx94824@gmail.com', 'this is a title', 'this is a content')
-# 
-# # Expected to be False currently
-# print(search_amz_newgrad_recent_10(['Vancouver']))
-# # Expected to be True currently
-# print(search_amz_newgrad_recent_10(['Santiago']))
+if __name__ == "__main__":
 
+    targets = [
+        # CONFIGURE THE KEY WORDS HERE
+        {'key_words': ['Vancouver'], 'found': False},
+        {'key_words': ['Santiago'], 'found': False}
+    ]
+
+    try:
+        while True:
+            for t in targets:
+                if not t['found'] and search_amz_newgrad_recent_10(t['key_words']):
+                    send_email(
+                        to_address='zmx94824@gmail.com',
+                        subject='NEW JOB POSTING - {}'.format(t['key_words'][0]),
+                        content='check it out at https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'
+                    )
+                    t['found'] = True
+                    print('NEW JOB POSTING - {}'.format(t['key_words'][0]))
+            time.sleep(30*60)
+    except:
+        send_email(
+            to_address='zmx94824@gmail.com',
+            subject='Check your worker (Raspberry Pi)',
+            content='Job notifier exited unexpectedly'
+        )
