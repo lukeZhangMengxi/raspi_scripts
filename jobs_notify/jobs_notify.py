@@ -1,3 +1,4 @@
+import argparse
 import logging
 import smtplib
 import time
@@ -52,6 +53,10 @@ def send_email(to_address, subject, content):
 
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser(description='Notify me on job posting updates.')
+    parser.add_argument('-i', '--interval', type=int, help='Num of minutes to wait before check again')
+    args = parser.parse_args()
+
     targets = [
         # CONFIGURE THE KEY WORDS HERE
         {'key_words': ['Vancouver'], 'found': False},
@@ -80,7 +85,7 @@ if __name__ == "__main__":
                 else:
                     logging.info('Target already found - {}'.format(search_signature))
 
-            time.sleep(30*60)
+            time.sleep(args.interval*60)
     except:
         logging.exception('Job notifier exited unexpectedly')
         send_email(
