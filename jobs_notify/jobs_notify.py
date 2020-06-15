@@ -47,6 +47,8 @@ def send_email(to_address, subject, content):
         msg['From'] = from_addr
         msg['To'] = to_address
         server.send_message(msg)
+    except:
+        logging.exception('Failed sending email')
     finally:
         server.quit()
     
