@@ -16,7 +16,9 @@ def search_amz_newgrad_recent_10(key_words):
         display = Display(visible=0, size=(800, 800))
         display.start()
 
-    driver = webdriver.Chrome()
+    options = webdriver.chrome.options.Options()
+    options.add_argument('--dns-prefetch-disable')
+    driver = webdriver.Chrome(chrome_options=options)
     url = "https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent"
     content = ''
     try:
