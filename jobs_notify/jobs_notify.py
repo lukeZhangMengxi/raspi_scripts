@@ -16,7 +16,9 @@ def search_amz_newgrad_recent_10(key_words):
         display = Display(visible=0, size=(800, 800))
         display.start()
 
-    driver = webdriver.Chrome()
+    options = webdriver.chrome.options.Options()
+    options.add_argument('--dns-prefetch-disable')
+    driver = webdriver.Chrome(chrome_options=options)
     url = "https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent"
     content = ''
     try:
@@ -62,7 +64,7 @@ if __name__ == "__main__":
     targets = [
         # CONFIGURE THE KEY WORDS HERE
         {'key_words': ['Vancouver'], 'found': False},
-        {'key_words': ['Santiago'], 'found': False}
+        {'key_words': ['Taipei'], 'found': False}
     ]
 
     logging.basicConfig(format='%(asctime)s - %(message)s', filename='jobs_notify.log', level=logging.INFO)
