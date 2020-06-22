@@ -64,7 +64,7 @@ if __name__ == "__main__":
     targets = [
         # CONFIGURE THE KEY WORDS HERE
         {'key_words': ['Vancouver'], 'found': False},
-        {'key_words': ['Santiago'], 'found': False}
+        {'key_words': ['Taipei'], 'found': False}
     ]
 
     logging.basicConfig(format='%(asctime)s - %(message)s', filename='jobs_notify.log', level=logging.INFO)
