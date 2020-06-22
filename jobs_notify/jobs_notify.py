@@ -10,6 +10,7 @@ from selenium import webdriver
 from sys import platform
 
 from posters.amz import search_amz_newgrad_recent_10
+from posters.ms import search_ms_newgrad_ca
 
 
 def send_email(to_address, subject, content):
@@ -31,7 +32,10 @@ def send_email(to_address, subject, content):
         logging.exception('Failed sending email')
     finally:
         server.quit()
-    
+
+
+POSTER_AMZ = 'Amazon'
+POSTER_MS = 'Microsoft'
 
 if __name__ == "__main__":
 
@@ -41,22 +45,31 @@ if __name__ == "__main__":
 
     # CONFIGURE THE KEY WORDS HERE
     targets = {
-        search_amz_newgrad_recent_10: [
+        POSTER_AMZ: [
             {'key_words': ['Vancouver'], 'found': False, 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'},
             {'key_words': ['Taipei'], 'found': False, 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'}
+        ],
+        POSTER_MS: [
+            # `key_words` here is not required by the selenium search, only for logging purpose
+            {'key_words': ['Canada fulltime'], 'found': False, 'url': 'https://careers.microsoft.com/students/us/en/canada-full-time-results'}
         ]
+    }
+
+    search_funcs = {
+        POSTER_AMZ: search_amz_newgrad_recent_10,
+        POSTER_MS: search_ms_newgrad_ca
     }
 
     logging.basicConfig(format='%(asctime)s - %(message)s', filename='jobs_notify.log', level=logging.INFO)
     try:
         while True:
-            for search_func, arg_list in targets.items():
+            for poster, arg_list in targets.items():
                 for args in arg_list:
-                    search_signature = args['key_words'][0]
+                    search_signature = '{}: {}'.format(poster, args['key_words'][0])
                     if not args['found']:
                         logging.info('Searching {}'.format(search_signature))
 
-                        if search_func(args['url'], args['key_words']):
+                        if search_funcs[poster](args['url'], args['key_words']):
                             logging.info('FOUND NEW JOB POSTING - {}'.format(search_signature))
 
                             send_email(
