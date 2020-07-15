@@ -1,0 +1,137 @@
+2020-05-17 02:55:14,126 - Searching Vancouver
+2020-05-17 02:55:14,530 - Successfully started X with display ":1041".
+2020-05-17 02:55:30,789 - Target not found - Vancouver
+2020-05-17 02:55:30,789 - Searching Santiago
+2020-05-17 02:55:31,084 - Successfully started X with display ":1045".
+2020-05-17 02:55:44,806 - FOUND NEW JOB POSTING - Santiago
+2020-05-18 02:55:46,536 - Searching Vancouver
+2020-05-18 02:55:46,821 - Successfully started X with display ":1049".
+2020-05-18 02:56:00,458 - Target not found - Vancouver
+2020-05-18 02:56:00,459 - Target already found - Santiago
+2020-05-19 02:56:00,559 - Searching Vancouver
+2020-05-19 02:56:00,896 - Successfully started X with display ":1053".
+2020-05-19 02:56:13,893 - Target not found - Vancouver
+2020-05-19 02:56:13,894 - Target already found - Santiago
+2020-05-20 02:56:13,994 - Searching Vancouver
+2020-05-20 02:56:14,353 - Successfully started X with display ":1057".
+2020-05-20 02:56:27,673 - Target not found - Vancouver
+2020-05-20 02:56:27,674 - Target already found - Santiago
+2020-05-21 02:56:27,696 - Searching Vancouver
+2020-05-21 02:56:28,046 - Successfully started X with display ":1061".
+2020-05-21 02:56:39,966 - Target not found - Vancouver
+2020-05-21 02:56:39,966 - Target already found - Santiago
+2020-05-22 02:56:40,067 - Searching Vancouver
+2020-05-22 02:56:40,406 - Successfully started X with display ":1065".
+2020-05-22 02:56:54,068 - Target not found - Vancouver
+2020-05-22 02:56:54,069 - Target already found - Santiago
+2020-05-23 02:56:54,169 - Searching Vancouver
+2020-05-23 02:56:54,504 - Successfully started X with display ":1069".
+2020-05-23 02:57:06,953 - Target not found - Vancouver
+2020-05-23 02:57:06,954 - Target already found - Santiago
+2020-05-24 02:57:07,054 - Searching Vancouver
+2020-05-24 02:57:07,388 - Successfully started X with display ":1073".
+2020-05-24 02:57:21,261 - Target not found - Vancouver
+2020-05-24 02:57:21,262 - Target already found - Santiago
+2020-05-25 02:57:21,362 - Searching Vancouver
+2020-05-25 02:57:21,723 - Successfully started X with display ":1077".
+2020-05-25 02:57:36,197 - Target not found - Vancouver
+2020-05-25 02:57:36,197 - Target already found - Santiago
+2020-05-26 02:57:36,298 - Searching Vancouver
+2020-05-26 02:57:36,657 - Successfully started X with display ":1081".
+2020-05-26 02:57:50,143 - Target not found - Vancouver
+2020-05-26 02:57:50,143 - Target already found - Santiago
+2020-05-27 02:57:50,244 - Searching Vancouver
+2020-05-27 02:57:50,637 - Successfully started X with display ":1085".
+2020-05-27 02:58:05,379 - Target not found - Vancouver
+2020-05-27 02:58:05,379 - Target already found - Santiago
+2020-05-28 02:58:05,480 - Searching Vancouver
+2020-05-28 02:58:05,827 - Successfully started X with display ":1089".
+2020-05-28 02:58:18,880 - Target not found - Vancouver
+2020-05-28 02:58:18,881 - Target already found - Santiago
+2020-05-29 02:58:18,981 - Searching Vancouver
+2020-05-29 02:58:19,389 - Successfully started X with display ":1093".
+2020-05-29 02:58:31,629 - Target not found - Vancouver
+2020-05-29 02:58:31,630 - Target already found - Santiago
+2020-05-30 02:58:31,730 - Searching Vancouver
+2020-05-30 02:58:32,103 - Successfully started X with display ":1097".
+2020-05-30 02:58:47,165 - Target not found - Vancouver
+2020-05-30 02:58:47,166 - Target already found - Santiago
+2020-05-31 02:58:47,267 - Searching Vancouver
+2020-05-31 02:58:47,753 - Successfully started X with display ":1101".
+2020-05-31 02:59:00,802 - Target not found - Vancouver
+2020-05-31 02:59:00,804 - Target already found - Santiago
+2020-06-01 02:59:00,905 - Searching Vancouver
+2020-06-01 02:59:01,382 - Successfully started X with display ":1105".
+2020-06-01 02:59:16,165 - Target not found - Vancouver
+2020-06-01 02:59:16,166 - Target already found - Santiago
+2020-06-02 02:59:16,201 - Searching Vancouver
+2020-06-02 02:59:16,569 - Successfully started X with display ":1109".
+2020-06-02 02:59:30,026 - Target not found - Vancouver
+2020-06-02 02:59:30,028 - Target already found - Santiago
+2020-06-03 02:59:30,129 - Searching Vancouver
+2020-06-03 02:59:30,660 - Successfully started X with display ":1113".
+2020-06-03 02:59:45,155 - Target not found - Vancouver
+2020-06-03 02:59:45,159 - Target already found - Santiago
+2020-06-04 02:59:45,260 - Searching Vancouver
+2020-06-04 02:59:45,671 - Successfully started X with display ":1117".
+2020-06-04 02:59:59,163 - Target not found - Vancouver
+2020-06-04 02:59:59,170 - Target already found - Santiago
+2020-06-05 02:59:59,271 - Searching Vancouver
+2020-06-05 03:00:00,061 - Successfully started X with display ":1121".
+2020-06-05 03:00:15,138 - Target not found - Vancouver
+2020-06-05 03:00:15,158 - Target already found - Santiago
+2020-06-06 03:00:15,258 - Searching Vancouver
+2020-06-06 03:00:16,014 - Successfully started X with display ":1125".
+2020-06-06 03:00:32,061 - Target not found - Vancouver
+2020-06-06 03:00:32,071 - Target already found - Santiago
+2020-06-07 03:00:32,173 - Searching Vancouver
+2020-06-07 03:00:33,069 - Successfully started X with display ":1129".
+2020-06-07 03:00:48,398 - Target not found - Vancouver
+2020-06-07 03:00:48,419 - Target already found - Santiago
+2020-06-08 03:00:48,520 - Searching Vancouver
+2020-06-08 03:00:49,537 - Successfully started X with display ":1133".
+2020-06-08 03:01:08,444 - Target not found - Vancouver
+2020-06-08 03:01:08,486 - Target already found - Santiago
+2020-06-09 03:01:08,587 - Searching Vancouver
+2020-06-09 03:01:09,847 - Successfully started X with display ":1137".
+2020-06-09 03:01:30,704 - Target not found - Vancouver
+2020-06-09 03:01:30,769 - Target already found - Santiago
+2020-06-10 03:01:30,870 - Searching Vancouver
+2020-06-10 03:01:32,147 - Successfully started X with display ":1141".
+2020-06-10 03:01:56,221 - Target not found - Vancouver
+2020-06-10 03:01:56,304 - Target already found - Santiago
+2020-06-11 03:01:56,405 - Searching Vancouver
+2020-06-11 03:01:57,644 - Successfully started X with display ":1145".
+2020-06-11 03:02:21,268 - Target not found - Vancouver
+2020-06-11 03:02:21,328 - Target already found - Santiago
+2020-06-12 03:02:21,429 - Searching Vancouver
+2020-06-12 03:02:22,663 - Successfully started X with display ":1149".
+2020-06-12 03:03:05,529 - Target not found - Vancouver
+2020-06-12 03:03:05,660 - Target already found - Santiago
+2020-06-13 03:03:05,760 - Searching Vancouver
+2020-06-13 03:03:07,002 - Successfully started X with display ":1153".
+2020-06-13 03:04:07,355 - Target not found - Vancouver
+2020-06-13 03:04:07,538 - Target already found - Santiago
+2020-06-14 03:04:07,638 - Searching Vancouver
+2020-06-14 03:04:08,919 - Successfully started X with display ":1157".
+2020-06-14 03:06:44,028 - Target not found - Vancouver
+2020-06-14 03:06:44,163 - Target already found - Santiago
+2020-06-15 03:06:44,264 - Searching Vancouver
+2020-06-15 03:06:45,506 - Successfully started X with display ":1161".
+2020-06-15 03:12:53,397 - Job notifier exited unexpectedly
+Traceback (most recent call last):
+  File "jobs_notify.py", line 69, in <module>
+    if search_amz_newgrad_recent_10(t['key_words']):
+  File "jobs_notify.py", line 22, in search_amz_newgrad_recent_10
+    driver.get(url)
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -29.322
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.25 (e0da1e9caa7c8f3da3519963a9ea32abba43c7c8),platform=Linux 4.19.97-v7+ armv7l)
+
