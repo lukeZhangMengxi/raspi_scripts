@@ -4,6 +4,9 @@ from selenium import webdriver
 from sys import platform
 
 
+searched_contents = set()
+
+
 def search_ms_newgrad_ca(url=None, key_words=None):
     # Only do virtual disply on linux system (supported by xvfb)
     if platform == 'linux' or platform == 'linux2':
@@ -22,7 +25,14 @@ def search_ms_newgrad_ca(url=None, key_words=None):
     finally:
         driver.close()
 
-    return len(content) > 0
+    if len(content) > 0:
+        if searched_contents.contains(content):
+            return False
+        else:
+            searched_contents.add(content)
+            return True
+
+    return False
 
 
 if __name__ == "__main__":

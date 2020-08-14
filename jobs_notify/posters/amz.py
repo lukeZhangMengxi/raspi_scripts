@@ -1,6 +1,7 @@
 from pyvirtualdisplay import Display
 from selenium import webdriver
 from sys import platform
+import time
 
 
 def search_amz_newgrad_recent_10(url, key_words):
@@ -16,6 +17,7 @@ def search_amz_newgrad_recent_10(url, key_words):
     content = ''
     try:
         driver.get(url)
+        time.sleep(1)   # Wait for the loading
         content = driver.find_elements_by_xpath(
             '//div[@class="search-page"][1]')[0].text
     finally:
