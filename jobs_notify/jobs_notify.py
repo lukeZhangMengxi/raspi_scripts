@@ -14,7 +14,7 @@ from posters.ms import search_ms_newgrad_ca
 
 
 def send_email(to_address, subject, content):
-    password = os.environ.get('PW_DEV_GAMIL')   # or input("Type your password and press enter:")
+    password = os.environ.get('PW_DEV_GAMIL') or input("Type your password and press enter:")
     from_addr = 'mengxidev@gmail.com'
 
     server = smtplib.SMTP('smtp.gmail.com:587')  
@@ -46,12 +46,12 @@ if __name__ == "__main__":
     # CONFIGURE THE KEY WORDS HERE
     targets = {
         POSTER_AMZ: [
-            {'key_words': ['Vancouver'], 'found': False, 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'},
-            {'key_words': ['Taipei'], 'found': False, 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'}
+            {'key_words': ['Vancouver'], 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'},
+            {'key_words': ['Taipei'], 'url': 'https://www.amazon.jobs/en/teams/jobs-for-grads?sort=recent'}
         ],
         POSTER_MS: [
             # `key_words` here is not required by the selenium search, only for logging purpose
-            {'key_words': ['Canada fulltime'], 'found': False, 'url': 'https://careers.microsoft.com/students/us/en/canada-full-time-results'}
+            {'key_words': ['Canada fulltime'], 'url': 'https://careers.microsoft.com/students/us/en/canada-full-time-results'}
         ]
     }
 
@@ -66,22 +66,19 @@ if __name__ == "__main__":
             for poster, arg_list in targets.items():
                 for args in arg_list:
                     search_signature = '{}: {}'.format(poster, args['key_words'][0])
-                    if not args['found']:
-                        logging.info('Searching {}'.format(search_signature))
+                    logging.info('Searching {}'.format(search_signature))
 
-                        if search_funcs[poster](args['url'], args['key_words']):
-                            logging.info('FOUND NEW JOB POSTING - {}'.format(search_signature))
+                    if search_funcs[poster](args['url'], args['key_words']):
+                        logging.info('FOUND NEW JOB POSTING - {}'.format(search_signature))
 
-                            send_email(
-                                to_address='zmx94824@gmail.com',
-                                subject='NEW JOB POSTING - {}'.format(search_signature),
-                                content='check it out at {}'.format(args['url'])
-                            )
-                            args['found'] = True
-                        else:
-                            logging.info('Target not found - {}'.format(search_signature))
+                        send_email(
+                            to_address='zmx94824@gmail.com',
+                            subject='NEW JOB POSTING - {}'.format(search_signature),
+                            content='check it out at {}'.format(args['url'])
+                        )
+                        args['found'] = True
                     else:
-                        logging.info('Target already found - {}'.format(search_signature))
+                        logging.info('Target job not found or not updated - {}'.format(search_signature))
 
             time.sleep(main_args.interval*60)
     except:

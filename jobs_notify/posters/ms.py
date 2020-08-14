@@ -4,6 +4,9 @@ from selenium import webdriver
 from sys import platform
 
 
+ms_searched_contents = set()
+
+
 def search_ms_newgrad_ca(url=None, key_words=None):
     # Only do virtual disply on linux system (supported by xvfb)
     if platform == 'linux' or platform == 'linux2':
@@ -18,11 +21,19 @@ def search_ms_newgrad_ca(url=None, key_words=None):
     try:
         driver.get(url)
         time.sleep(1)   # Wait for the loading
-        content = driver.find_elements_by_xpath('//li[@class="jobs-list-item"]')
+        buf = driver.find_elements_by_xpath('//li[@class="jobs-list-item"]')
+        content = '\n'.join([e.text for e in buf])
     finally:
         driver.close()
 
-    return len(content) > 0
+    if len(content) > 0:
+        if content in ms_searched_contents:
+            return False
+        else:
+            ms_searched_contents.add(content)
+            return True
+
+    return False
 
 
 if __name__ == "__main__":
@@ -30,4 +41,4 @@ if __name__ == "__main__":
     print(search_ms_newgrad_ca())
     
     # Expected true, as the implemented time, there are postings
-    print(search_ms_newgrad_ca(url='https://careers.microsoft.com/students/us/en/search-results?qcountry=Canada'))
+    # print(search_ms_newgrad_ca(url='https://careers.microsoft.com/students/us/en/search-results?qcountry=Canada'))
