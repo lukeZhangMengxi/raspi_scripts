@@ -1,0 +1,229 @@
+2020-07-15 16:04:31,390 - Searching Amazon: Vancouver
+2020-07-15 16:04:32,571 - Successfully started X with display ":1193".
+2020-07-15 16:08:30,008 - Target not found - Amazon: Vancouver
+2020-07-15 16:08:30,163 - Searching Amazon: Taipei
+2020-07-15 16:08:32,339 - Successfully started X with display ":1197".
+2020-07-15 16:52:33,589 - Searching Amazon: Vancouver
+2020-07-15 16:52:33,953 - Successfully started X with display ":1001".
+2020-07-15 16:52:52,437 - Target not found - Amazon: Vancouver
+2020-07-15 16:52:52,438 - Searching Amazon: Taipei
+2020-07-15 16:52:52,738 - Successfully started X with display ":1005".
+2020-07-15 16:53:06,369 - FOUND NEW JOB POSTING - Amazon: Taipei
+2020-07-15 16:53:07,285 - Failed sending email
+Traceback (most recent call last):
+  File "jobs_notify.py", line 30, in send_email
+    server.send_message(msg)
+  File "/usr/lib/python3.7/smtplib.py", line 967, in send_message
+    rcpt_options)
+  File "/usr/lib/python3.7/smtplib.py", line 882, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.7/smtplib.py", line 560, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). j5sm2981239pfa.5 - gsmtp')
+2020-07-15 16:53:07,296 - Job notifier exited unexpectedly
+Traceback (most recent call last):
+  File "jobs_notify.py", line 78, in <module>
+    content='check it out at {}'.format(args['url'])
+  File "jobs_notify.py", line 34, in send_email
+    server.quit()
+  File "/usr/lib/python3.7/smtplib.py", line 984, in quit
+    res = self.docmd("quit")
+  File "/usr/lib/python3.7/smtplib.py", line 421, in docmd
+    return self.getreply()
+  File "/usr/lib/python3.7/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2020-07-15 16:53:07,955 - Failed sending email
+Traceback (most recent call last):
+  File "jobs_notify.py", line 78, in <module>
+    content='check it out at {}'.format(args['url'])
+  File "jobs_notify.py", line 34, in send_email
+    server.quit()
+  File "/usr/lib/python3.7/smtplib.py", line 984, in quit
+    res = self.docmd("quit")
+  File "/usr/lib/python3.7/smtplib.py", line 421, in docmd
+    return self.getreply()
+  File "/usr/lib/python3.7/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "jobs_notify.py", line 30, in send_email
+    server.send_message(msg)
+  File "/usr/lib/python3.7/smtplib.py", line 967, in send_message
+    rcpt_options)
+  File "/usr/lib/python3.7/smtplib.py", line 882, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.7/smtplib.py", line 560, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). b24sm3162740pgn.8 - gsmtp')
+2020-07-16 13:07:06,348 - Searching Amazon: Vancouver
+2020-07-16 13:07:06,631 - Successfully started X with display ":1009".
+2020-07-16 13:07:20,579 - Target not found - Amazon: Vancouver
+2020-07-16 13:07:20,579 - Searching Amazon: Taipei
+2020-07-16 13:07:20,872 - Successfully started X with display ":1013".
+2020-07-16 13:07:34,088 - FOUND NEW JOB POSTING - Amazon: Taipei
+2020-07-16 13:07:36,675 - Searching Microsoft: Canada fulltime
+2020-07-16 13:07:37,019 - Successfully started X with display ":1017".
+2020-07-16 13:07:46,769 - Target not found - Microsoft: Canada fulltime
+2020-07-17 13:07:46,866 - Searching Amazon: Vancouver
+2020-07-17 13:07:47,220 - Successfully started X with display ":1021".
+2020-07-17 13:08:00,059 - Target not found - Amazon: Vancouver
+2020-07-17 13:08:00,059 - Target already found - Amazon: Taipei
+2020-07-17 13:08:00,060 - Searching Microsoft: Canada fulltime
+2020-07-17 13:08:00,352 - Successfully started X with display ":1025".
+2020-07-17 13:08:09,811 - Target not found - Microsoft: Canada fulltime
+2020-07-18 13:08:09,856 - Searching Amazon: Vancouver
+2020-07-18 13:08:10,201 - Successfully started X with display ":1029".
+2020-07-18 13:08:22,448 - Target not found - Amazon: Vancouver
+2020-07-18 13:08:22,448 - Target already found - Amazon: Taipei
+2020-07-18 13:08:22,449 - Searching Microsoft: Canada fulltime
+2020-07-18 13:08:22,745 - Successfully started X with display ":1033".
+2020-07-18 13:08:32,503 - Target not found - Microsoft: Canada fulltime
+2020-07-19 13:08:32,546 - Searching Amazon: Vancouver
+2020-07-19 13:08:32,906 - Successfully started X with display ":1037".
+2020-07-19 13:08:46,185 - Target not found - Amazon: Vancouver
+2020-07-19 13:08:46,187 - Target already found - Amazon: Taipei
+2020-07-19 13:08:46,187 - Searching Microsoft: Canada fulltime
+2020-07-19 13:08:46,518 - Successfully started X with display ":1041".
+2020-07-19 13:08:56,322 - Target not found - Microsoft: Canada fulltime
+2020-07-20 13:08:56,356 - Searching Amazon: Vancouver
+2020-07-20 13:08:56,688 - Successfully started X with display ":1045".
+2020-07-20 13:09:10,492 - Target not found - Amazon: Vancouver
+2020-07-20 13:09:10,493 - Target already found - Amazon: Taipei
+2020-07-20 13:09:10,493 - Searching Microsoft: Canada fulltime
+2020-07-20 13:09:10,786 - Successfully started X with display ":1049".
+2020-07-20 13:09:20,474 - Target not found - Microsoft: Canada fulltime
+2020-07-21 13:09:20,575 - Searching Amazon: Vancouver
+2020-07-21 13:09:20,905 - Successfully started X with display ":1053".
+2020-07-21 13:09:34,956 - Target not found - Amazon: Vancouver
+2020-07-21 13:09:34,957 - Target already found - Amazon: Taipei
+2020-07-21 13:09:34,957 - Searching Microsoft: Canada fulltime
+2020-07-21 13:09:35,278 - Successfully started X with display ":1057".
+2020-07-21 13:09:44,984 - Target not found - Microsoft: Canada fulltime
+2020-07-22 13:09:45,085 - Searching Amazon: Vancouver
+2020-07-22 13:09:45,433 - Successfully started X with display ":1061".
+2020-07-22 13:09:59,619 - Target not found - Amazon: Vancouver
+2020-07-22 13:09:59,619 - Target already found - Amazon: Taipei
+2020-07-22 13:09:59,619 - Searching Microsoft: Canada fulltime
+2020-07-22 13:09:59,990 - Successfully started X with display ":1065".
+2020-07-22 13:10:09,926 - Target not found - Microsoft: Canada fulltime
+2020-07-23 13:10:10,027 - Searching Amazon: Vancouver
+2020-07-23 13:10:10,365 - Successfully started X with display ":1069".
+2020-07-23 13:10:22,919 - Target not found - Amazon: Vancouver
+2020-07-23 13:10:22,921 - Target already found - Amazon: Taipei
+2020-07-23 13:10:22,921 - Searching Microsoft: Canada fulltime
+2020-07-23 13:10:23,307 - Successfully started X with display ":1073".
+2020-07-23 13:10:32,956 - Target not found - Microsoft: Canada fulltime
+2020-07-24 13:10:33,057 - Searching Amazon: Vancouver
+2020-07-24 13:10:33,408 - Successfully started X with display ":1077".
+2020-07-24 13:10:48,378 - Target not found - Amazon: Vancouver
+2020-07-24 13:10:48,379 - Target already found - Amazon: Taipei
+2020-07-24 13:10:48,379 - Searching Microsoft: Canada fulltime
+2020-07-24 13:10:48,741 - Successfully started X with display ":1081".
+2020-07-24 13:10:58,586 - Target not found - Microsoft: Canada fulltime
+2020-07-25 13:10:58,687 - Searching Amazon: Vancouver
+2020-07-25 13:10:59,026 - Successfully started X with display ":1085".
+2020-07-25 13:11:13,161 - Target not found - Amazon: Vancouver
+2020-07-25 13:11:13,164 - Target already found - Amazon: Taipei
+2020-07-25 13:11:13,165 - Searching Microsoft: Canada fulltime
+2020-07-25 13:11:13,512 - Successfully started X with display ":1089".
+2020-07-25 13:11:22,982 - Target not found - Microsoft: Canada fulltime
+2020-07-26 13:11:23,083 - Searching Amazon: Vancouver
+2020-07-26 13:11:23,419 - Successfully started X with display ":1093".
+2020-07-26 13:11:37,095 - Target not found - Amazon: Vancouver
+2020-07-26 13:11:37,097 - Target already found - Amazon: Taipei
+2020-07-26 13:11:37,097 - Searching Microsoft: Canada fulltime
+2020-07-26 13:11:37,442 - Successfully started X with display ":1097".
+2020-07-26 13:11:47,075 - Target not found - Microsoft: Canada fulltime
+2020-07-27 13:11:47,106 - Searching Amazon: Vancouver
+2020-07-27 13:11:47,440 - Successfully started X with display ":1101".
+2020-07-27 13:12:01,268 - Target not found - Amazon: Vancouver
+2020-07-27 13:12:01,268 - Target already found - Amazon: Taipei
+2020-07-27 13:12:01,268 - Searching Microsoft: Canada fulltime
+2020-07-27 13:12:01,603 - Successfully started X with display ":1105".
+2020-07-27 13:12:11,406 - Target not found - Microsoft: Canada fulltime
+2020-07-28 13:12:11,507 - Searching Amazon: Vancouver
+2020-07-28 13:12:11,874 - Successfully started X with display ":1109".
+2020-07-28 13:12:26,004 - Target not found - Amazon: Vancouver
+2020-07-28 13:12:26,011 - Target already found - Amazon: Taipei
+2020-07-28 13:12:26,013 - Searching Microsoft: Canada fulltime
+2020-07-28 13:12:26,421 - Successfully started X with display ":1113".
+2020-07-28 13:12:36,395 - Target not found - Microsoft: Canada fulltime
+2020-07-29 13:12:36,495 - Searching Amazon: Vancouver
+2020-07-29 13:12:36,830 - Successfully started X with display ":1117".
+2020-07-29 13:12:53,777 - Target not found - Amazon: Vancouver
+2020-07-29 13:12:53,778 - Target already found - Amazon: Taipei
+2020-07-29 13:12:53,779 - Searching Microsoft: Canada fulltime
+2020-07-29 13:12:54,190 - Successfully started X with display ":1121".
+2020-07-29 13:13:04,450 - Target not found - Microsoft: Canada fulltime
+2020-07-30 13:13:04,551 - Searching Amazon: Vancouver
+2020-07-30 13:13:04,901 - Successfully started X with display ":1125".
+2020-07-30 13:13:19,599 - Target not found - Amazon: Vancouver
+2020-07-30 13:13:19,600 - Target already found - Amazon: Taipei
+2020-07-30 13:13:19,600 - Searching Microsoft: Canada fulltime
+2020-07-30 13:13:20,048 - Successfully started X with display ":1129".
+2020-07-30 13:13:29,758 - Target not found - Microsoft: Canada fulltime
+2020-07-31 13:13:29,859 - Searching Amazon: Vancouver
+2020-07-31 13:13:30,201 - Successfully started X with display ":1133".
+2020-07-31 13:13:44,189 - FOUND NEW JOB POSTING - Amazon: Vancouver
+2020-07-31 13:13:46,809 - Target already found - Amazon: Taipei
+2020-07-31 13:13:46,810 - Searching Microsoft: Canada fulltime
+2020-07-31 13:13:47,342 - Successfully started X with display ":1137".
+2020-07-31 13:13:57,076 - Target not found - Microsoft: Canada fulltime
+2020-08-01 13:13:57,177 - Target already found - Amazon: Vancouver
+2020-08-01 13:13:57,178 - Target already found - Amazon: Taipei
+2020-08-01 13:13:57,178 - Searching Microsoft: Canada fulltime
+2020-08-01 13:13:57,532 - Successfully started X with display ":1141".
+2020-08-01 13:14:07,458 - Target not found - Microsoft: Canada fulltime
+2020-08-02 13:14:07,559 - Target already found - Amazon: Vancouver
+2020-08-02 13:14:07,560 - Target already found - Amazon: Taipei
+2020-08-02 13:14:07,564 - Searching Microsoft: Canada fulltime
+2020-08-02 13:14:07,975 - Successfully started X with display ":1145".
+2020-08-02 13:14:19,117 - Target not found - Microsoft: Canada fulltime
+2020-08-03 13:14:19,220 - Target already found - Amazon: Vancouver
+2020-08-03 13:14:19,221 - Target already found - Amazon: Taipei
+2020-08-03 13:14:19,221 - Searching Microsoft: Canada fulltime
+2020-08-03 13:14:19,607 - Successfully started X with display ":1149".
+2020-08-03 13:14:30,832 - Target not found - Microsoft: Canada fulltime
+2020-08-04 13:14:30,888 - Target already found - Amazon: Vancouver
+2020-08-04 13:14:30,889 - Target already found - Amazon: Taipei
+2020-08-04 13:14:30,889 - Searching Microsoft: Canada fulltime
+2020-08-04 13:14:31,335 - Successfully started X with display ":1153".
+2020-08-04 13:14:41,590 - Target not found - Microsoft: Canada fulltime
+2020-08-05 13:14:41,619 - Target already found - Amazon: Vancouver
+2020-08-05 13:14:41,636 - Target already found - Amazon: Taipei
+2020-08-05 13:14:41,637 - Searching Microsoft: Canada fulltime
+2020-08-05 13:14:43,213 - Successfully started X with display ":1157".
+2020-08-05 13:14:59,679 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-06 13:15:02,357 - Target already found - Amazon: Vancouver
+2020-08-06 13:15:02,358 - Target already found - Amazon: Taipei
+2020-08-06 13:15:02,358 - Target already found - Microsoft: Canada fulltime
+2020-08-07 13:15:02,459 - Target already found - Amazon: Vancouver
+2020-08-07 13:15:02,460 - Target already found - Amazon: Taipei
+2020-08-07 13:15:02,460 - Target already found - Microsoft: Canada fulltime
+2020-08-08 13:15:02,561 - Target already found - Amazon: Vancouver
+2020-08-08 13:15:02,562 - Target already found - Amazon: Taipei
+2020-08-08 13:15:02,562 - Target already found - Microsoft: Canada fulltime
+2020-08-09 13:15:02,663 - Target already found - Amazon: Vancouver
+2020-08-09 13:15:02,664 - Target already found - Amazon: Taipei
+2020-08-09 13:15:02,664 - Target already found - Microsoft: Canada fulltime
+2020-08-10 13:15:02,765 - Target already found - Amazon: Vancouver
+2020-08-10 13:15:02,765 - Target already found - Amazon: Taipei
+2020-08-10 13:15:02,766 - Target already found - Microsoft: Canada fulltime
+2020-08-11 13:15:02,867 - Target already found - Amazon: Vancouver
+2020-08-11 13:15:02,868 - Target already found - Amazon: Taipei
+2020-08-11 13:15:02,874 - Target already found - Microsoft: Canada fulltime
+2020-08-12 13:15:02,975 - Target already found - Amazon: Vancouver
+2020-08-12 13:15:02,976 - Target already found - Amazon: Taipei
+2020-08-12 13:15:02,976 - Target already found - Microsoft: Canada fulltime
+2020-08-13 13:15:03,077 - Target already found - Amazon: Vancouver
+2020-08-13 13:15:03,078 - Target already found - Amazon: Taipei
+2020-08-13 13:15:03,078 - Target already found - Microsoft: Canada fulltime
+2020-08-13 22:42:13,072 - Job notifier exited unexpectedly
+Traceback (most recent call last):
+  File "jobs_notify.py", line 86, in <module>
+    time.sleep(main_args.interval*60)
+KeyboardInterrupt
