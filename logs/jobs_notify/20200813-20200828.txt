@@ -1,0 +1,145 @@
+2020-08-13 23:35:08,003 - Searching Amazon: Vancouver
+2020-08-13 23:35:08,292 - Successfully started X with display ":1009".
+2020-08-13 23:35:23,511 - Target job not found or not updated - Amazon: Vancouver
+2020-08-13 23:35:23,511 - Searching Amazon: Taipei
+2020-08-13 23:35:23,817 - Successfully started X with display ":1013".
+2020-08-13 23:35:38,773 - Target job not found or not updated - Amazon: Taipei
+2020-08-13 23:35:38,774 - Searching Microsoft: Canada fulltime
+2020-08-13 23:35:39,068 - Successfully started X with display ":1017".
+2020-08-13 23:35:49,525 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-14 23:35:51,158 - Searching Amazon: Vancouver
+2020-08-14 23:35:51,513 - Successfully started X with display ":1021".
+2020-08-14 23:36:06,420 - Target job not found or not updated - Amazon: Vancouver
+2020-08-14 23:36:06,421 - Searching Amazon: Taipei
+2020-08-14 23:36:06,719 - Successfully started X with display ":1025".
+2020-08-14 23:36:20,850 - FOUND NEW JOB POSTING - Amazon: Taipei
+2020-08-14 23:36:23,233 - Searching Microsoft: Canada fulltime
+2020-08-14 23:36:23,557 - Successfully started X with display ":1029".
+2020-08-14 23:36:33,974 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-15 23:36:34,075 - Searching Amazon: Vancouver
+2020-08-15 23:36:34,407 - Successfully started X with display ":1033".
+2020-08-15 23:36:47,278 - Target job not found or not updated - Amazon: Vancouver
+2020-08-15 23:36:47,279 - Searching Amazon: Taipei
+2020-08-15 23:36:47,572 - Successfully started X with display ":1037".
+2020-08-15 23:37:01,304 - FOUND NEW JOB POSTING - Amazon: Taipei
+2020-08-15 23:37:03,762 - Searching Microsoft: Canada fulltime
+2020-08-15 23:37:04,133 - Successfully started X with display ":1041".
+2020-08-15 23:37:14,412 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-16 23:37:14,513 - Searching Amazon: Vancouver
+2020-08-16 23:37:14,837 - Successfully started X with display ":1045".
+2020-08-16 23:37:28,747 - Target job not found or not updated - Amazon: Vancouver
+2020-08-16 23:37:28,747 - Searching Amazon: Taipei
+2020-08-16 23:37:29,048 - Successfully started X with display ":1049".
+2020-08-16 23:37:42,849 - FOUND NEW JOB POSTING - Amazon: Taipei
+2020-08-16 23:37:45,422 - Searching Microsoft: Canada fulltime
+2020-08-16 23:37:45,790 - Successfully started X with display ":1053".
+2020-08-16 23:37:56,087 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-17 23:37:56,187 - Searching Amazon: Vancouver
+2020-08-17 23:37:56,533 - Successfully started X with display ":1057".
+2020-08-17 23:38:11,487 - Target job not found or not updated - Amazon: Vancouver
+2020-08-17 23:38:11,488 - Searching Amazon: Taipei
+2020-08-17 23:38:11,791 - Successfully started X with display ":1061".
+2020-08-17 23:38:26,752 - Target job not found or not updated - Amazon: Taipei
+2020-08-17 23:38:26,752 - Searching Microsoft: Canada fulltime
+2020-08-17 23:38:27,093 - Successfully started X with display ":1065".
+2020-08-17 23:38:38,081 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-18 23:38:40,856 - Searching Amazon: Vancouver
+2020-08-18 23:38:41,190 - Successfully started X with display ":1069".
+2020-08-18 23:38:56,840 - Target job not found or not updated - Amazon: Vancouver
+2020-08-18 23:38:56,841 - Searching Amazon: Taipei
+2020-08-18 23:38:57,242 - Successfully started X with display ":1073".
+2020-08-18 23:39:12,939 - Target job not found or not updated - Amazon: Taipei
+2020-08-18 23:39:12,940 - Searching Microsoft: Canada fulltime
+2020-08-18 23:39:13,238 - Successfully started X with display ":1077".
+2020-08-18 23:39:23,988 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-19 23:39:24,089 - Searching Amazon: Vancouver
+2020-08-19 23:39:24,426 - Successfully started X with display ":1081".
+2020-08-19 23:39:39,289 - Target job not found or not updated - Amazon: Vancouver
+2020-08-19 23:39:39,291 - Searching Amazon: Taipei
+2020-08-19 23:39:39,598 - Successfully started X with display ":1085".
+2020-08-19 23:39:54,568 - Target job not found or not updated - Amazon: Taipei
+2020-08-19 23:39:54,569 - Searching Microsoft: Canada fulltime
+2020-08-19 23:39:54,883 - Successfully started X with display ":1089".
+2020-08-19 23:40:05,935 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-20 23:40:06,036 - Searching Amazon: Vancouver
+2020-08-20 23:40:06,401 - Successfully started X with display ":1093".
+2020-08-20 23:40:24,908 - Target job not found or not updated - Amazon: Vancouver
+2020-08-20 23:40:24,909 - Searching Amazon: Taipei
+2020-08-20 23:40:25,224 - Successfully started X with display ":1097".
+2020-08-20 23:40:45,715 - Target job not found or not updated - Amazon: Taipei
+2020-08-20 23:40:45,717 - Searching Microsoft: Canada fulltime
+2020-08-20 23:40:46,210 - Successfully started X with display ":1101".
+2020-08-20 23:40:57,291 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-21 23:40:59,617 - Searching Amazon: Vancouver
+2020-08-21 23:40:59,994 - Successfully started X with display ":1105".
+2020-08-21 23:41:31,801 - Target job not found or not updated - Amazon: Vancouver
+2020-08-21 23:41:31,802 - Searching Amazon: Taipei
+2020-08-21 23:41:32,207 - Successfully started X with display ":1109".
+2020-08-21 23:41:47,811 - Target job not found or not updated - Amazon: Taipei
+2020-08-21 23:41:47,813 - Searching Microsoft: Canada fulltime
+2020-08-21 23:41:48,146 - Successfully started X with display ":1113".
+2020-08-21 23:41:59,679 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-22 23:41:59,780 - Searching Amazon: Vancouver
+2020-08-22 23:42:00,156 - Successfully started X with display ":1117".
+2020-08-22 23:42:17,443 - Target job not found or not updated - Amazon: Vancouver
+2020-08-22 23:42:17,458 - Searching Amazon: Taipei
+2020-08-22 23:42:18,164 - Successfully started X with display ":1121".
+2020-08-22 23:42:32,161 - Target job not found or not updated - Amazon: Taipei
+2020-08-22 23:42:32,169 - Searching Microsoft: Canada fulltime
+2020-08-22 23:42:32,562 - Successfully started X with display ":1125".
+2020-08-22 23:42:44,580 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-23 23:42:44,606 - Searching Amazon: Vancouver
+2020-08-23 23:42:44,943 - Successfully started X with display ":1129".
+2020-08-23 23:42:58,535 - Target job not found or not updated - Amazon: Vancouver
+2020-08-23 23:42:58,565 - Searching Amazon: Taipei
+2020-08-23 23:42:59,504 - Successfully started X with display ":1133".
+2020-08-23 23:43:14,622 - Target job not found or not updated - Amazon: Taipei
+2020-08-23 23:43:14,632 - Searching Microsoft: Canada fulltime
+2020-08-23 23:43:15,568 - Successfully started X with display ":1137".
+2020-08-23 23:43:28,520 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-24 23:43:28,620 - Searching Amazon: Vancouver
+2020-08-24 23:43:28,998 - Successfully started X with display ":1141".
+2020-08-24 23:43:43,916 - Target job not found or not updated - Amazon: Vancouver
+2020-08-24 23:43:43,944 - Searching Amazon: Taipei
+2020-08-24 23:43:45,542 - Successfully started X with display ":1145".
+2020-08-24 23:44:04,754 - Target job not found or not updated - Amazon: Taipei
+2020-08-24 23:44:04,810 - Searching Microsoft: Canada fulltime
+2020-08-24 23:44:06,549 - Successfully started X with display ":1149".
+2020-08-24 23:44:21,819 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-25 23:44:25,099 - Searching Amazon: Vancouver
+2020-08-25 23:44:25,655 - Successfully started X with display ":1153".
+2020-08-25 23:44:41,969 - Target job not found or not updated - Amazon: Vancouver
+2020-08-25 23:44:42,142 - Searching Amazon: Taipei
+2020-08-25 23:44:44,264 - Successfully started X with display ":1157".
+2020-08-25 23:45:08,779 - Target job not found or not updated - Amazon: Taipei
+2020-08-25 23:45:08,864 - Searching Microsoft: Canada fulltime
+2020-08-25 23:45:10,876 - Successfully started X with display ":1161".
+2020-08-25 23:45:26,545 - FOUND NEW JOB POSTING - Microsoft: Canada fulltime
+2020-08-26 23:45:29,542 - Searching Amazon: Vancouver
+2020-08-26 23:45:30,154 - Successfully started X with display ":1165".
+2020-08-26 23:45:57,248 - Target job not found or not updated - Amazon: Vancouver
+2020-08-26 23:45:57,384 - Searching Amazon: Taipei
+2020-08-26 23:45:59,519 - Successfully started X with display ":1169".
+2020-08-26 23:47:03,303 - Target job not found or not updated - Amazon: Taipei
+2020-08-26 23:47:03,472 - Searching Microsoft: Canada fulltime
+2020-08-26 23:47:05,609 - Successfully started X with display ":1173".
+2020-08-26 23:47:23,335 - Target job not found or not updated - Microsoft: Canada fulltime
+2020-08-27 23:47:23,505 - Searching Amazon: Vancouver
+2020-08-27 23:47:24,714 - Successfully started X with display ":1177".
+2020-08-28 00:07:58,073 - Job notifier exited unexpectedly
+Traceback (most recent call last):
+  File "jobs_notify.py", line 71, in <module>
+    if search_funcs[poster](args['url'], args['key_words']):
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/posters/amz.py", line 22, in search_amz_newgrad_recent_10
+    driver.get(url)
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/pi/workspace/raspi_scripts/jobs_notify/env/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -878.974
+  (Session info: chrome=78.0.3904.108)
+  (Driver info: chromedriver=2.25 (e0da1e9caa7c8f3da3519963a9ea32abba43c7c8),platform=Linux 4.19.97-v7+ armv7l)
+
