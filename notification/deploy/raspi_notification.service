@@ -1,0 +1,13 @@
+[Unit]
+Description=RaspberryPi Notification Service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=30
+User=root
+ExecStart=/bin/bash /usr/bin/raspi_notification.sh
+
+[Install]
+WantedBy=multi-user.target
+
